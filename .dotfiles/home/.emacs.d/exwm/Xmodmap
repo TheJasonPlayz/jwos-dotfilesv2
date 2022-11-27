@@ -1,0 +1,5 @@
+clear lock
+clear mod4
+keycode 66 = Super_L
+add mod4 = Super_L
+add lock = Super_R
