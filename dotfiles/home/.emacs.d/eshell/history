@@ -1,0 +1,9 @@
+ls
+cd .
+rm #configs.sh#
+rm #configs.sh#
+ls
+cd .
+cd ..
+ls
+git config --global credential.helper store

@@ -1,0 +1,7 @@
+!Caps Lock = Super
+keycode 66 = Super_L
+clear Lock
+
+!Caps Lock = Caps Lock
+!keycode 66 = Caps_Lock
+!clear Lock
