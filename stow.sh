@@ -1,9 +1,9 @@
 #!/bin/bash
-dotfiles=/home/jasonw/.git/jwos-dotfilesv2/dotfiles
+stow=/home/jasonw/.git/jwos-dotfilesv2/stow
 
 # Stow home files
-cd $dotfiles/home
+cd $stow/home
 stow . -t /home/jasonw/
 # Stow etc files
-cd $dotfiles/root/etc
+cd $stow/root/etc
 sudo stow . -t /etc/

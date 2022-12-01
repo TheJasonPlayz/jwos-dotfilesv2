@@ -1,0 +1,18 @@
+ls
+cd .
+rm #configs.sh#
+rm #configs.sh#
+ls
+cd .
+cd ..
+ls
+git config --global credential.helper store
+qtile check
+qtile check
+qtile check
+qtile check
+qtile check
+qtile check
+qtile check
+ls
+nano startup_once.sh

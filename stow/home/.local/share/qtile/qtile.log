@@ -1,0 +1,613 @@
+2022-11-30 16:53:20,293 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 16:55:53,192 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `emacsc`
+2022-11-30 20:11:49,598 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:11:50,806 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:11:52,150 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:11:52,753 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:11:53,144 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:11:53,393 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:11:53,599 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:11:53,746 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:11:53,986 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:11:54,184 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:11:58,689 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:03,611 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:04,898 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:05,026 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:05,136 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:05,242 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:05,395 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:05,500 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:05,598 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:05,715 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:05,834 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:05,957 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:06,064 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:06,190 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:06,296 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:06,530 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:06,655 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:06,874 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:06,991 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:07,126 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:07,534 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:07,887 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:08,171 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:08,501 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:09,584 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:10,680 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:10,955 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:11,342 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:42,755 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:45,351 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:45,653 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:46,387 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:46,544 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:46,671 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:47,041 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:47,159 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:47,274 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:47,964 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:48,222 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:48,952 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:49,193 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:49,328 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:49,570 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:12:49,849 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:19:19,618 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:19:20,049 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:19:20,185 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:19:20,307 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:19:20,435 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:19:20,548 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:19:20,671 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-11-30 20:19:20,776 ERROR libqtile manager.py:cmd_spawn():L1160 couldn't find `LIBGL_ALWAYS_SOFTWARE=1`
+2022-12-01 08:43:58,878 ERROR libqtile manager.py:load_config():L112 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 109, in load_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 128, in load
+    config = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 115
+    ]$
+     ^
+SyntaxError: invalid syntax
+2022-12-01 08:43:59,045 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 08:47:41,322 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 128, in load
+    config = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 115
+    ]$
+     ^
+SyntaxError: invalid syntax
+2022-12-01 08:47:41,324 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 08:47:42,181 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 128, in load
+    config = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 115
+    ]$
+     ^
+SyntaxError: invalid syntax
+2022-12-01 08:47:42,184 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 08:47:43,665 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 128, in load
+    config = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 115
+    ]$
+     ^
+SyntaxError: invalid syntax
+2022-12-01 08:47:43,667 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 08:47:46,613 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 128, in load
+    config = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 115
+    ]$
+     ^
+SyntaxError: invalid syntax
+2022-12-01 08:47:46,615 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 08:47:56,594 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 128, in load
+    config = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 115
+    ]$
+     ^
+SyntaxError: invalid syntax
+2022-12-01 08:47:56,597 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 08:48:05,300 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 128, in load
+    config = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 115
+    ]$
+     ^
+SyntaxError: invalid syntax
+2022-12-01 08:48:05,302 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 08:48:09,664 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-12-01 08:48:12,549 ERROR libqtile manager.py:load_config():L112 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 109, in load_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 128, in load
+    config = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 115
+    ]$
+     ^
+SyntaxError: invalid syntax
+2022-12-01 08:48:12,585 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 08:48:15,031 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 128, in load
+    config = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 115
+    ]$
+     ^
+SyntaxError: invalid syntax
+2022-12-01 08:48:15,033 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 08:49:05,985 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 128, in load
+    config = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 115
+    ]$
+     ^
+SyntaxError: invalid syntax
+2022-12-01 08:49:05,989 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 08:49:07,165 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 128, in load
+    config = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 115
+    ]$
+     ^
+SyntaxError: invalid syntax
+2022-12-01 08:49:07,167 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 08:49:15,025 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 128, in load
+    config = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 115
+    ]$
+     ^
+SyntaxError: invalid syntax
+2022-12-01 08:49:15,028 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 08:50:53,605 ERROR libqtile manager.py:load_config():L112 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 109, in load_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 128, in load
+    config = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 115
+    ]$
+     ^
+SyntaxError: invalid syntax
+2022-12-01 08:50:53,786 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 08:52:43,303 ERROR libqtile manager.py:load_config():L112 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 109, in load_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 128, in load
+    config = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 115
+    ]$
+     ^
+SyntaxError: invalid syntax
+2022-12-01 08:52:43,486 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 08:53:26,624 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 128, in load
+    config = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 115
+    ]$
+     ^
+SyntaxError: invalid syntax
+2022-12-01 08:53:26,627 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 08:53:27,801 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 128, in load
+    config = importlib.import_module(name)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 115
+    ]$
+     ^
+SyntaxError: invalid syntax
+2022-12-01 08:53:27,803 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 08:55:45,576 ERROR libqtile core.py:__init__():L103 not starting; existing window manager LG3D
+2022-12-01 10:26:06,248 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 72
+    floating_layout = layout.Floating(
+IndentationError: unexpected indent
+2022-12-01 10:26:06,250 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 10:26:07,721 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 72
+    floating_layout = layout.Floating(
+IndentationError: unexpected indent
+2022-12-01 10:26:07,723 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 10:26:08,597 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 72
+    floating_layout = layout.Floating(
+IndentationError: unexpected indent
+2022-12-01 10:26:08,599 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 10:26:11,181 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 72
+    floating_layout = layout.Floating(
+IndentationError: unexpected indent
+2022-12-01 10:26:11,182 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 10:26:13,632 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 72
+    floating_layout = layout.Floating(
+IndentationError: unexpected indent
+2022-12-01 10:26:13,634 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 10:26:14,891 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 72
+    floating_layout = layout.Floating(
+IndentationError: unexpected indent
+2022-12-01 10:26:14,893 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 10:31:37,277 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 73
+    floating_layout = layout.Floating(
+IndentationError: unexpected indent
+2022-12-01 10:31:37,278 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 10:31:39,034 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 73
+    floating_layout = layout.Floating(
+IndentationError: unexpected indent
+2022-12-01 10:31:39,036 WARNING libqtile utils.py:_notify():L282 Unable to send notification. Is a notification server running?
+2022-12-01 10:39:54,615 ERROR libqtile manager.py:process_key_event():L407 KB command error kill: No object window in path 'window'
+2022-12-01 10:46:29,276 ERROR libqtile hook.py:fire():L406 Error in hook startup_once
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/hook.py", line 404, in fire
+    i(*args, **kwargs)
+  File "/home/jasonw/.config/qtile/config.py", line 122, in my_startup_once
+    subprocess.Popen([script])
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/jasonw/.config/qtile/startup_once.sh'
+2022-12-01 10:48:39,614 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-12-01 10:48:42,015 ERROR libqtile hook.py:fire():L406 Error in hook startup_once
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/hook.py", line 404, in fire
+    i(*args, **kwargs)
+  File "/home/jasonw/.config/qtile/config.py", line 122, in my_startup_once
+    subprocess.Popen([script])
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+PermissionError: [Errno 13] Permission denied: '/home/jasonw/.config/qtile/startup_once.sh'
+2022-12-01 10:50:31,110 ERROR libqtile hook.py:fire():L406 Error in hook startup_once
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/hook.py", line 404, in fire
+    i(*args, **kwargs)
+  File "/home/jasonw/.config/qtile/config.py", line 122, in my_startup_once
+    subprocess.Popen([script])
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+PermissionError: [Errno 13] Permission denied: '/home/jasonw/.config/qtile/startup_once.sh'
+2022-12-01 10:51:29,514 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-12-01 10:51:32,047 ERROR libqtile hook.py:fire():L406 Error in hook startup_once
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/hook.py", line 404, in fire
+    i(*args, **kwargs)
+  File "/home/jasonw/.config/qtile/config.py", line 122, in my_startup_once
+    subprocess.Popen([script])
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+PermissionError: [Errno 13] Permission denied: '/home/jasonw/.config/qtile/startup_once.sh'
+2022-12-01 10:53:30,580 ERROR libqtile hook.py:fire():L406 Error in hook startup_once
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/hook.py", line 404, in fire
+    i(*args, **kwargs)
+  File "/home/jasonw/.config/qtile/config.py", line 122, in my_startup_once
+    subprocess.Popen([script])
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+PermissionError: [Errno 13] Permission denied: '/home/jasonw/.config/qtile/startup_once.sh'
+2022-12-01 10:54:19,174 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
