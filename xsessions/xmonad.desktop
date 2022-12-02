@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=XMonad
+Comment=Start XMonad Window Manager
+Exec=/usr/bin/xmonad
+TryExec=/usr/bin/xmonad
+Icon=xmonad.png
+Type=Application

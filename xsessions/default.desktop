@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Qtile
+Comment=Qtile Session
+Exec=qtile start --config=/home/jasonw/.config/qtile/config.py
+Type=Application
+Keywords=wm;tiling
