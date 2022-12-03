@@ -2,20 +2,6 @@
 (setq user-emacs-directory "~/.emacs.d/")
 (setq user-init-file (expand-file-name "~/.emacs.d/init.el"))
 
-(defun load-init ()
-    (interactive)
-  (find-file (expand-file-name "~/.emacs.d/init.el"))
-  (eval-buffer))
-(defun load-init-org ()
-    (interactive)
-  (find-file (expand-file-name "~/.emacs.d/init.org"))
-  (org-babel-tangle))
-(defun reload ()
-  (interactive)
-  (load-init-org)
-  (load-init)
-  (exwm-restart))
-
 (load-theme `wombat)
 
 (set-face-attribute 'default nil :font "Source Code Pro" :height 110)
@@ -26,6 +12,23 @@
 (set-fringe-mode 10)
 
 (setq inhibit-startup-message t)
+
+(defun load-init ()
+    (interactive)
+  (find-file (expand-file-name "~/.emacs.d/init.el"))
+  (eval-buffer))
+(defun load-org-init ()
+    (interactive)
+  (find-file (expand-file-name "~/.emacs.d/init.org"))
+  (org-babel-tangle))
+(defun reload-emacs ()
+  (interactive)
+  (load-org-init)
+  (load-init)
+  (exwm-restart))
+(defun reload-file ()
+  (interactive)
+  (find-file (expand-file-name (buffer-file-name))))
 
 (require 'package)
 
@@ -80,6 +83,9 @@
 (use-package rainbow-delimiters
   :config
   (rainbow-delimiters-mode 1))
+(use-package haskell-mode)
+(use-package lua-mode)
+(use-package csv-mode)
 
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 (global-set-key (kbd "C-M-<return>") 'eshell)

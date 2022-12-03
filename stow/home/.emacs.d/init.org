@@ -42,7 +42,7 @@
     (org-babel-tangle))
   (defun reload-emacs ()
     (interactive)
-    (load-init-org)
+    (load-org-init)
     (load-init)
     (exwm-restart))
   (defun reload-file ()
@@ -115,6 +115,7 @@
     (rainbow-delimiters-mode 1))
   (use-package haskell-mode)
   (use-package lua-mode)
+  (use-package csv-mode)
 #+end_src
 ** Variables
 ** Keybndings

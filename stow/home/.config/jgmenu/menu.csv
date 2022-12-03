@@ -1,0 +1,25 @@
+System,^checkout(system)
+Favorites,^checkout(favorites)
+Internet,^checkout(internet)
+Multimedia,^checkout(multimedia)
+Office,^checkout(office)
+Utilities,^checkout(utilities)
+Hacking,^checkout(hacking)
+Settings,^checkout(settings)
+
+^tag(system)
+Lock, lxlock
+Exit to Greeter, killall qtile
+Reboot, systemctl -i reboot
+Poweroff, systemctl -i poweroff
+
+^tag(favorites)
+Web Browser, firefox, firefox
+Terminal, alacritty, alacritty
+File Manager, pcmanfm, pcmanfm
+Office Suite, libreoffice, libreoffice
+Note Taking Visual, obsidian, obsidian
+Note Taking Hierarchial, cherrytree, cherrytree
+Image Viewer, sxiv, sxiv
+Music Player, deadbeef, deadbeef,
+VideoPlayer, mpv, mpv

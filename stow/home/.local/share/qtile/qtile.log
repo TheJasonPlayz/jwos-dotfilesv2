@@ -13178,3 +13178,510 @@ Traceback (most recent call last):
     raise child_exception_type(errno_num, err_msg, err_filename)
 FileNotFoundError: [Errno 2] No such file or directory: '/home/jasonw/.config/qtile/startup_once.sh'
 2022-12-03 14:12:02,073 ERROR libqtile manager.py:process_key_event():L407 KB command error kill: No object window in path 'window'
+2022-12-03 14:29:27,198 ERROR libqtile hook.py:fire():L406 Error in hook startup_once
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/hook.py", line 404, in fire
+    i(*args, **kwargs)
+  File "/home/jasonw/.config/qtile/config.py", line 141, in my_startup_once
+    subprocess.Popen([script])
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/jasonw/.config/qtile/startup_once.sh'
+2022-12-03 14:47:06,481 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 47
+    Key([mod, "control"], "l", lazy.spawn("jgmenu_run --csv-file='$XDG_CONFIG_HOME/jgmenu/menu.csv'"), desc="Launch application menu")
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+2022-12-03 14:49:13,937 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-12-03 14:49:16,318 ERROR libqtile hook.py:fire():L406 Error in hook startup_once
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/hook.py", line 404, in fire
+    i(*args, **kwargs)
+  File "/home/jasonw/.config/qtile/config.py", line 142, in my_startup_once
+    subprocess.Popen([script])
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/jasonw/.config/qtile/startup_once.sh'
+2022-12-03 14:57:29,617 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 45
+    Key([mod], "f", lazy.spawn("pcmanfm"), desc="Launch file manager"),G
+                                                                       ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+2022-12-03 14:57:29,621 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:29,622 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:29,623 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:29,623 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:29,623 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:29,623 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:29,624 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:29,624 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:30,782 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 45
+    Key([mod], "f", lazy.spawn("pcmanfm"), desc="Launch file manager"),G
+                                                                       ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+2022-12-03 14:57:30,784 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:30,785 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:30,785 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:30,785 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:30,785 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:30,785 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:30,786 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:30,786 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:45,937 ERROR libqtile manager.py:cmd_reload_config():L266 Configuration error:
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 264, in cmd_reload_config
+    self.config.load()
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 125, in load
+    self._reload_config_submodules(path)
+  File "/usr/lib/python3.10/site-packages/libqtile/confreader.py", line 114, in _reload_config_submodules
+    importlib.reload(module)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 169, in reload
+    _bootstrap._exec(spec, module)
+  File "<frozen importlib._bootstrap>", line 619, in _exec
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/jasonw/.config/qtile/config.py", line 45
+    Key([mod], "f", lazy.spawn("pcmanfm"), desc="Launch file manager"),G
+                                                                       ^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+2022-12-03 14:57:45,940 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:45,940 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:45,940 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:45,940 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:45,941 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:45,941 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:45,941 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-03 14:57:45,941 ERROR libqtile loop.py:_handle_exception():L63 initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.10/site-packages/libqtile/core/manager.py", line 871, in f
+    func(*args)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 123, in real_update
+    self.set_notif_text(notif)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/notify.py", line 99, in set_notif_text
+    self.text = pangocffi.markup_escape_text(notif.summary)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 483, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 73, in text
+    self.layout.set_attributes(attrlist)
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
+    pango.pango_layout_set_attributes(self._pointer, attrs)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType

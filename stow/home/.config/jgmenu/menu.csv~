@@ -1,0 +1,14 @@
+Favorites,^checkout(favorites)
+System,^checkout(system)
+Internet,^checkout(internet)
+Multimedia,^checkout(multimedia)
+Office,^checkout(office)
+Utilities,^checkout(utilities)
+Hacking,^checkout(hacking)
+Settings,^checkout(settings)
+
+^tag(system)
+Lock, lxlock
+Exit to greeter, killall qtile
+Reboot, systemctl -i reboot
+Poweroff, systemctl -i poweroff

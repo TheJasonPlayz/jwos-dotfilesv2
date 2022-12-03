@@ -23,7 +23,7 @@
   (org-babel-tangle))
 (defun reload-emacs ()
   (interactive)
-  (load-init-org)
+  (load-org-init)
   (load-init)
   (exwm-restart))
 (defun reload-file ()
@@ -85,6 +85,7 @@
   (rainbow-delimiters-mode 1))
 (use-package haskell-mode)
 (use-package lua-mode)
+(use-package csv-mode)
 
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 (global-set-key (kbd "C-M-<return>") 'eshell)
@@ -154,3 +155,16 @@
 		  (number-sequence 0 9))))
 
 (exwm-enable))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   '(csv-mode which-key use-package rainbow-delimiters org-auto-tangle magit lua-mode helpful haskell-mode exwm counsel)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )

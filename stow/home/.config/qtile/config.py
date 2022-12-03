@@ -44,6 +44,7 @@ keys = [
     Key([mod], "e", lazy.spawn(emacs), desc="Launch Emacs client"),
     Key([mod], "f", lazy.spawn("pcmanfm"), desc="Launch file manager"),
     Key([mod], "l", lazy.spawn("rofi -show combi"), desc="Launch application launcher"),
+    Key([mod], "m", lazy.spawn("jgmenu --csv-file='/home/jasonw/.config/jgmenu/menu.csv'"), desc="Launch application menu"),
     # Toggle between layouts
     Key([mod], "Tab", lazy.next_layout(), desc="Next layout"),
     Key([mod, "shift"], "Tab", lazy.prev_layout(), desc="Previous layout"),
