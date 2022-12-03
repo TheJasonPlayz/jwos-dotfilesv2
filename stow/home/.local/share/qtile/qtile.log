@@ -13154,3 +13154,26 @@ Traceback (most recent call last):
 TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
 2022-12-02 21:17:57,925 WARNING libqtile currentlayout.py:_setup_images():L217 No icon found for layout "threecolumns"
 2022-12-02 21:20:43,468 WARNING libqtile currentlayout.py:_setup_images():L217 No icon found for layout "threecolumns"
+2022-12-03 11:28:23,351 ERROR libqtile hook.py:fire():L406 Error in hook startup_once
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/hook.py", line 404, in fire
+    i(*args, **kwargs)
+  File "/home/jasonw/.config/qtile/config.py", line 140, in my_startup_once
+    subprocess.Popen([script])
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/jasonw/.config/qtile/startup_once.sh'
+2022-12-03 12:14:35,035 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-12-03 12:14:38,230 ERROR libqtile hook.py:fire():L406 Error in hook startup_once
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/hook.py", line 404, in fire
+    i(*args, **kwargs)
+  File "/home/jasonw/.config/qtile/config.py", line 140, in my_startup_once
+    subprocess.Popen([script])
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/jasonw/.config/qtile/startup_once.sh'

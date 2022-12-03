@@ -16,3 +16,5 @@ qtile check
 qtile check
 ls
 nano startup_once.sh
+ls
+rm -rf single_aur_pkglist.txt 
