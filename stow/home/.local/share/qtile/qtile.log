@@ -13177,3 +13177,4 @@ Traceback (most recent call last):
   File "/usr/lib/python3.10/subprocess.py", line 1847, in _execute_child
     raise child_exception_type(errno_num, err_msg, err_filename)
 FileNotFoundError: [Errno 2] No such file or directory: '/home/jasonw/.config/qtile/startup_once.sh'
+2022-12-03 14:12:02,073 ERROR libqtile manager.py:process_key_event():L407 KB command error kill: No object window in path 'window'

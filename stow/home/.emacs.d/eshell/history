@@ -18,3 +18,15 @@ ls
 nano startup_once.sh
 ls
 rm -rf single_aur_pkglist.txt 
+ls
+cd ..
+....
+cd ..c
+cd ..
+cd ..
+cd .
+cd ../../
+ls
+cd jwos-scripts/
+ls
+./update.sh
