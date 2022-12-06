@@ -14341,3 +14341,10 @@ FileNotFoundError: [Errno 2] No such file or directory: '/home/jasonw/.config/qt
 2022-12-05 17:06:51,728 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
 2022-12-05 17:06:51,764 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
 2022-12-05 17:06:51,787 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 17:15:18,233 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 17:15:18,252 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 17:15:18,265 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 18:52:01,212 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 18:52:01,249 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 18:52:01,269 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 20:24:24,872 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.

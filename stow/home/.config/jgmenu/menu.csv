@@ -55,8 +55,200 @@ Emacsclient, emacsclient -c -a 'emacs', emacs
 Vim, alacritty -e vim, vim
 Nitrogen, nitrogen, nitrogen
 
-^tag(hacking)
+^tag(settings)
 Placeholder
 
-^tag(settings)
+^tag(hacking)
+Placeholder
+#Anti-forensic, ^checkout(Anti-forensic)
+#Automation, ^checkout(Automation)
+#Automobile, ^checkout(Automobile)
+#Backdoor, ^checkout(Backdoor)
+#Binary, ^checkout(Binary)
+#Bluetooth, ^checkout(Bluetooth)
+#Code-audit, ^checkout(Code-audit)
+#Config, ^checkout(Config)
+#Cracker, ^checkout(Cracker)
+#Crypto, ^checkout(Crypto)
+#Database, ^checkout(Database)
+#Debugger, ^checkout(Debugger)
+#Decompiler, ^checkout(Decompiler)
+#Defensive, ^checkout(Defensive)
+#Disassembler, ^checkout(Disassembler)
+#Dos, ^checkout(Dos)
+#Drone, ^checkout(Drone)
+#Exploitation, ^checkout(Exploitation)
+#Fingerprint, ^checkout(Fingerprint)
+#Firmware, ^checkout(Firmware)
+#Forensic, ^checkout(Forensic)
+#Fuzzer, ^checkout(Fuzzer)
+#Gpu, ^checkout(Gpu)
+#Hardware, ^checkout(Hardware)
+#Honeypot, ^checkout(Honeypot)
+#Ids, ^checkout(Ids)
+#Keylogger, ^checkout(Keylogger)
+#Malware, ^checkout(Malware)
+#Misc, ^checkout(Misc)
+#Mobile, ^checkout(Mobile)
+#Networking, ^checkout(Networking)
+#Nfc, ^checkout(Nfc)
+#Packer, ^checkout(Packer)
+#Proxy, ^checkout(Proxy)
+#Radio, ^checkout(Radio)
+#Recon, ^checkout(Recon)
+#Reversing, ^checkout(Reversing)
+#Scanner, ^checkout(Scanner)
+#Sniffer, ^checkout(Sniffer)
+#Social, ^checkout(Social)
+#Spoof, ^checkout(Spoof)
+#Stego, ^checkout(Stego)
+#Tunnel, ^checkout(Tunnel)
+#Unpacker, ^checkout(Unpacker)
+#Voip, ^checkout(Voip)
+#Webapp, ^checkout(Webapp)
+#Windows, ^checkout(Windows)
+#Wireless, ^checkout(Wireless)
+
+^tag(Anti-forensic)
+Placeholder
+
+^tag(Automation)
+Placeholder
+
+^tag(Automobile)
+Placeholder
+
+^tag(Backdoor)
+Placeholder
+
+^tag(Binary)
+Placeholder
+
+^tag(Bluetooth)
+Placeholder
+
+^tag(Code-audit)
+Placeholder
+
+^tag(Config)
+Placeholder
+
+^tag(Cracker)
+Placeholder
+
+^tag(Crypto)
+Placeholder
+
+^tag(Database)
+Placeholder
+
+^tag(Debugger)
+Placeholder
+
+^tag(Decompiler)
+Placeholder
+
+^tag(Defensive)
+Placeholder
+
+^tag(Disassembler)
+Placeholder
+
+^tag(Dos)
+Placeholder
+
+^tag(Drone)
+Placeholder
+
+^tag(Exploitation)
+Placeholder
+
+^tag(Fingerprint)
+Placeholder
+
+^tag(Firmware)
+Placeholder
+
+^tag(Forensic)
+Placeholder
+
+^tag(Fuzzer)
+Placeholder
+
+^tag(Gpu)
+Placeholder
+
+^tag(Hardware)
+Placeholder
+
+^tag(Honeypot)
+Placeholder
+
+^tag(Ids)
+Placeholder
+
+^tag(Keylogger)
+Placeholder
+
+^tag(Malware)
+Placeholder
+
+^tag(Misc)
+Placeholder
+
+^tag(Mobile)
+Placeholder
+
+^tag(Networking)
+Placeholder
+
+^tag(Nfc)
+Placeholder
+
+^tag(Packer)
+Placeholder
+
+^tag(Proxy)
+Placeholder
+
+^tag(Radio)
+Placeholder
+
+^tag(Recon)
+Placeholder
+
+^tag(Reversing)
+Placeholder
+
+^tag(Scanner)
+Placeholder
+
+^tag(Sniffer)
+Placeholder
+
+^tag(Social)
+Placeholder
+
+^tag(Spoof)
+Placeholder
+
+^tag(Stego)
+Placeholder
+
+^tag(Tunnel)
+Placeholder
+
+^tag(Unpacker)
+Placeholder
+
+^tag(Voip)
+Placeholder
+
+^tag(Webapp)
+Placeholder
+
+^tag(Windows)
+Placeholder
+
+^tag(Wireless)
 Placeholder
