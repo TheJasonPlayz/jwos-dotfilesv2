@@ -12,3 +12,6 @@ sudo $base/stow.sh
 
 # Copy Xsessions
 sudo cp $base/xsessions/* /usr/share/xsessions/
+
+# Copy icons
+sudo cp $base/icons/* /usr/share/icons/

@@ -13685,3 +13685,659 @@ Traceback (most recent call last):
   File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 118, in set_attributes
     pango.pango_layout_set_attributes(self._pointer, attrs)
 TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-05 16:23:02,125 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:02,146 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:02,254 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 16:23:02,302 ERROR libqtile hook.py:fire():L406 Error in hook startup_once
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/hook.py", line 404, in fire
+    i(*args, **kwargs)
+  File "/home/jasonw/.config/qtile/config.py", line 142, in my_startup_once
+    subprocess.Popen([script])
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/jasonw/.config/qtile/startup_once.sh'
+2022-12-05 16:23:14,874 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:14,874 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:14,876 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:14,876 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:14,884 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:14,885 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:14,887 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:14,887 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:14,899 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 16:23:15,838 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:15,838 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:15,840 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:15,840 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:15,848 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:15,849 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:15,851 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:15,852 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:15,863 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 16:23:15,939 ERROR libqtile base.py:on_done():L802 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 794, in on_done
+    self.update(result)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 697, in update
+    old_width = self.layout.width
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 81, in width
+    return self.layout.get_pixel_size()[0]
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 138, in get_pixel_size
+    pango.pango_layout_get_pixel_size(self._pointer, width, height)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-05 16:23:16,299 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:16,300 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:16,302 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:16,302 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:16,310 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:16,311 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:16,313 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:16,313 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:16,323 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 16:23:16,742 ERROR libqtile base.py:on_done():L802 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 794, in on_done
+    self.update(result)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 697, in update
+    old_width = self.layout.width
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 81, in width
+    return self.layout.get_pixel_size()[0]
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 138, in get_pixel_size
+    pango.pango_layout_get_pixel_size(self._pointer, width, height)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-05 16:23:16,804 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:16,805 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:16,807 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:16,808 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:16,817 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:16,817 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:16,819 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:16,820 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:23:16,831 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 16:23:17,616 ERROR libqtile base.py:on_done():L802 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 794, in on_done
+    self.update(result)
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/base.py", line 697, in update
+    old_width = self.layout.width
+  File "/usr/lib/python3.10/site-packages/libqtile/drawer.py", line 81, in width
+    return self.layout.get_pixel_size()[0]
+  File "/usr/lib/python3.10/site-packages/libqtile/pangocffi.py", line 138, in get_pixel_size
+    pango.pango_layout_get_pixel_size(self._pointer, width, height)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2022-12-05 16:25:10,070 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:25:10,085 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:25:10,226 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 16:25:10,273 ERROR libqtile hook.py:fire():L406 Error in hook startup_once
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/hook.py", line 404, in fire
+    i(*args, **kwargs)
+  File "/home/jasonw/.config/qtile/config.py", line 142, in my_startup_once
+    subprocess.Popen([script])
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/jasonw/.config/qtile/startup_once.sh'
+                                                                                                                                                                                                                                                                                                                                                                           2022-12-05 16:29:00,105 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.cpu.CPU':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/cpu.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:29:00,126 ERROR libqtile utils.py:import_class():L189 Unmet dependencies for 'libqtile.widget.memory.Memory':
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/utils.py", line 186, in import_class
+    module = importlib.import_module(module_path, __package__)
+  File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/usr/lib/python3.10/site-packages/libqtile/widget/memory.py", line 21, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+2022-12-05 16:29:00,266 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 16:29:00,314 ERROR libqtile hook.py:fire():L406 Error in hook startup_once
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/hook.py", line 404, in fire
+    i(*args, **kwargs)
+  File "/home/jasonw/.config/qtile/config.py", line 142, in my_startup_once
+    subprocess.Popen([script])
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/jasonw/.config/qtile/startup_once.sh'
+2022-12-05 16:29:02,316 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 16:29:02,319 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 16:29:02,322 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 16:30:12,169 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 16:39:42,351 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 16:41:27,783 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 16:42:19,734 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 17:03:17,834 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 17:03:17,863 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 17:03:17,873 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 17:06:51,728 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 17:06:51,764 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-05 17:06:51,787 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.

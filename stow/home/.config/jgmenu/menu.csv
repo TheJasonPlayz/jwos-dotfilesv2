@@ -8,18 +8,55 @@ Hacking,^checkout(hacking)
 Settings,^checkout(settings)
 
 ^tag(system)
-Lock, lxlock
-Exit to Greeter, killall qtile
-Reboot, systemctl -i reboot
-Poweroff, systemctl -i poweroff
+Lock, lxlock, lock
+Exit to Greeter, killall qtile, greeter
+Reboot, systemctl -i reboot, reboot
+Poweroff, systemctl -i poweroff, poweroff
 
 ^tag(favorites)
-Web Browser, firefox, firefox
-Terminal, alacritty, alacritty
-File Manager, pcmanfm, pcmanfm
-Office Suite, libreoffice, libreoffice
-Note Taking Visual, obsidian, obsidian
-Note Taking Hierarchial, cherrytree, cherrytree
-Image Viewer, sxiv, sxiv
-Music Player, deadbeef, deadbeef,
-VideoPlayer, mpv, mpv
+Firefox, firefox, firefox
+Emacsclient, emacsclient -c -a 'emacs', emacs
+Alacritty, alacritty, alacritty
+PCManFM, pcmanfm, pcmanfm
+LibreOffice, libreoffice, libreoffice
+Obsidian, obsidian, obsidian
+cherrytree, cherrytree, cherrytree
+SXIV, sxiv, sxiv
+Deadbeef, deadbeef, deadbeef
+MPV, mpv, mpv
+
+^tag(internet)
+Firefox, firefox, firefox
+Discord, discord, discord
+Element, element-desktop, element
+Zoom, zoom, zoom
+
+^tag(multimedia)
+Ardour, ardour, ardour
+Blender, blender, blender
+Deadbeef, deadbeef, deadbeef
+KdenLive, kdenlive, kdenlive
+OBS, obs, obs
+MPV, mpv, mpv
+
+^tag(office)
+Evince, evince, evince
+LibreOffice, libreoffice, libreoffice
+LO Base, lobase
+LO Calc, localc
+LO Draw, lodraw
+LO Impress, loimpress
+LO Math, lomath
+LO Writer, lowriter
+
+^tag(utilities)
+Emacs, emacs, emacs
+Emacsclient, emacsclient -c -a 'emacs', emacs
+Vim, alacritty -e vim, vim
+Nitrogen, nitrogen, nitrogen
+
+^tag(hacking)
+Placeholder
+
+^tag(settings)
+Placeholder
