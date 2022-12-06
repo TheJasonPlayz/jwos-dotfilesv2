@@ -6,8 +6,8 @@
 # tint2_look = 0
 position_mode = fixed
 # edge_snap_x = 30
-# terminal_exec = alacritty
-# terminal_args = -e
+terminal_exec = alacritty
+terminal_args = -e
 # monitor = 0
 # hover_delay = 100
 # hide_back_items = 1
@@ -44,7 +44,7 @@ menu_valign = top
 # sep_height = 5
 # sep_halign = left
 # sep_markup = 
-# font = 
+font = Overpass
 # font_fallback = xtg
 # icon_size = 22
 # icon_text_spacing = 10
@@ -54,13 +54,13 @@ icon_theme = ~/.icons
 # icon_theme_fallback = xtg
 # arrow_string = ▸
 # arrow_width = 15
-color_menu_bg = #eddea4 100
+color_menu_bg = #ffffff 100
 # color_menu_bg_to = #000000 100
-color_menu_border = #f7a072 100
-color_norm_bg = #85c7f2 00
-color_norm_fg = #3b413c 100
-color_sel_bg = #09bc8a 20
-color_sel_fg = #3b413c 100
+color_menu_border = #000000 100
+color_norm_bg = #1f7a8c 00
+color_norm_fg = #000000 100
+color_sel_bg = #89023e 20
+color_sel_fg = #000000 100
 # color_sel_border = #eeeeee 8
 # color_sep_fg = #ffffff 20
 # color_scroll_ind = #eeeeee 40
@@ -73,9 +73,9 @@ color_sel_fg = #3b413c 100
 # csv_i18n = 
 # csv_no_duplicates = 0
 
-# COLOR PALETTE
-# BLACK #3B413C
-# GREEN #09BC8A
-# BLUE #85C7F2
-# BEIGE #EDDEA4
-# ORANGE #F7A072
+# COLOR PALETTE (NEW)
+# WHITE #FFFFFF
+# BLACK #000000
+# BLUE #1F7A8C
+# RED #89023E
+# BROWN #815E5B
