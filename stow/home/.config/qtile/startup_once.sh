@@ -1,15 +1,19 @@
-# SYSTEM
+
+#!/bin/bash
+
+# System
 pulseaudio &
 picom &
 nm-applet &
 volumeicon &
-# cbatticon
+cbatticon &
 redshift -l 38.973320:-104.622971 &
-nitrogen --restore &
-xmodmap ~/.Xmodmap &
 
-# APPS
+# Apps
 flameshot &
 discord &
 emacs --daemon &
 
+# DE
+nitrogen --restore &
+xmonadmap ~/.Xmodmap &

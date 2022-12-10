@@ -9,7 +9,8 @@ from libqtile import hook
 mod = "mod4"
 terminal = "alacritty"
 emacs = "emacsclient -c -a 'emacs'"
-groups = [Group(i) for i in "123456789"]
+group_names = ["main", "www", "chat", "dev", "hack1", "hack2", "img", "vid", "audio"]
+groups = [Group(g) for g in group_names]
 wmname = "LG3D"
 myNormalColor = "#303f9f"
 myFocusColor = "#0288d1"
@@ -44,7 +45,7 @@ keys = [
     Key([mod], "e", lazy.spawn(emacs), desc="Launch Emacs client"),
     Key([mod], "f", lazy.spawn("pcmanfm"), desc="Launch file manager"),
     Key([mod], "l", lazy.spawn("rofi -show combi"), desc="Launch application launcher"),
-    Key([mod], "m", lazy.spawn("jgmenu --csv-file='/home/jasonw/.config/jgmenu/menu.csv'"), desc="Launch application menu"),
+    Key([mod], "m", lazy.spawn("rm -f /home/jasonw/.jgmenu-lockfile"), lazy.spawn("jgmenu --csv-file='/home/jasonw/.config/jgmenu/menu.csv'"), desc="Launch application menu"),
     # Toggle between layouts
     Key([mod], "Tab", lazy.next_layout(), desc="Next layout"),
     Key([mod, "shift"], "Tab", lazy.prev_layout(), desc="Previous layout"),
@@ -131,12 +132,12 @@ screens = [
 
 widget_defaults = dict(
     font="Adobe Courier Bold",
-    fontsize=13,
+    fontsize=10,
     padding=5,
 )
 extension_defaults = widget_defaults.copy()
 
-@hook.subscribe.startup_once
+@hook.subscribe.startup_complete
 def my_startup_once():
-    script = os.path.expanduser('~/.config/qtile/startup_once.sh')
+    script = os.path.expanduser('/home/jasonw/.config/qtile/startup_once.sh')
     subprocess.Popen([script])

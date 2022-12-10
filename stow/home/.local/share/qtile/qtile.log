@@ -132,3 +132,57 @@ Traceback (most recent call last):
     raise child_exception_type(errno_num, err_msg, err_filename)
 OSError: [Errno 8] Exec format error: '/home/jasonw/.config/qtile/startup_once.sh'
 2022-12-06 11:37:51,332 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-06 14:48:02,939 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-06 14:48:02,979 ERROR libqtile hook.py:fire():L406 Error in hook startup_once
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/hook.py", line 404, in fire
+    i(*args, **kwargs)
+  File "/home/jasonw/.config/qtile/config.py", line 143, in my_startup_once
+    subprocess.Popen([script])
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: '/home/jasonw/.config/qtile/startup_once.sh'
+2022-12-06 14:48:37,173 ERROR libqtile manager.py:process_key_event():L407 KB command error kill: No object window in path 'window'
+2022-12-07 20:18:57,101 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-07 20:18:57,143 ERROR libqtile hook.py:fire():L406 Error in hook startup_once
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/hook.py", line 404, in fire
+    i(*args, **kwargs)
+  File "/home/jasonw/.config/qtile/config.py", line 143, in my_startup_once
+    subprocess.Popen([script])
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: '/home/jasonw/.config/qtile/startup_once.sh'
+2022-12-07 20:21:05,963 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-09 20:24:04,317 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-09 20:24:04,369 ERROR libqtile hook.py:fire():L406 Error in hook startup_once
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/hook.py", line 404, in fire
+    i(*args, **kwargs)
+  File "/home/jasonw/.config/qtile/config.py", line 143, in my_startup_once
+    subprocess.Popen([script])
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+OSError: [Errno 8] Exec format error: '/home/jasonw/.config/qtile/startup_once.sh'
+2022-12-09 20:34:45,127 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-09 20:40:47,424 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+                                                                                                                                                                                                                                                                                                                                                                                              2022-12-09 20:46:24,185 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
+2022-12-09 20:46:24,232 ERROR libqtile hook.py:fire():L406 Error in hook startup_complete
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/site-packages/libqtile/hook.py", line 404, in fire
+    i(*args, **kwargs)
+  File "/home/jasonw/.config/qtile/config.py", line 143, in my_startup_once
+    subprocess.Popen([script])
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1847, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+PermissionError: [Errno 13] Permission denied: '/home/jasonw/.config/qtile/startup_once.sh'
+2022-12-09 20:47:44,675 WARNING libqtile lifecycle.py:_atexit():L37 Qtile will now terminate
+2022-12-09 20:47:48,556 WARNING libqtile notify.py:_configure():L90 You must install dbus-next to use the Notify widget.
